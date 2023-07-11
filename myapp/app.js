@@ -7,7 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://Gracyprem11:Gracyprem11@cluster0.gqle1re.mongodb.net/checkusers")
+mongoose.connect("mongodb+srv://*******:*******@cluster0.gqle1re.mongodb.net/checkusers")
 .then(() => {
   console.log("Connected Successfully")
 }).catch((err) => {
